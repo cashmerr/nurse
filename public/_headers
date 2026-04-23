@@ -1,0 +1,15 @@
+# Long-cache the static assets (versioned via file hash if you add it, otherwise browsers re-fetch on deploy)
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Don't cache the main HTML — so new deploys are picked up immediately
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Security headers — good defaults for a static site
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin

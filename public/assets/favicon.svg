@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background circle for mobile app icon -->
+  <circle cx="64" cy="64" r="62" fill="#f5e9d4"/>
+  
+  <!-- Umbrella canopy - segmented for detail -->
+  <!-- Main canopy shape -->
+  <path d="M 30 42 Q 64 14, 98 42 Q 98 50, 90 58 Q 64 72, 38 58 Q 30 50, 30 42 Z" fill="#2ca69a"/>
+  <path d="M 32 44 Q 64 20, 96 44 L 90 58 Q 64 70, 38 58 Z" fill="#38bfb2"/>
+  
+  <!-- Umbrella segments/ribs for dimension -->
+  <path d="M 64 16 L 64 58" stroke="#1a6b63" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 48 26 L 42 58" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 80 26 L 86 58" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 36 36 L 32 62" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 92 36 L 96 62" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Pole -->
+  <rect x="61" y="58" width="6" height="34" rx="2" fill="#2ca69a"/>
+  <rect x="62" y="58" width="4" height="34" rx="1.5" fill="#38bfb2"/>
+  
+  <!-- Ground/sand base -->
+  <rect x="44" y="94" width="40" height="8" rx="3" fill="#2ca69a"/>
+  <ellipse cx="64" cy="98" rx="22" ry="5" fill="#1a6b63" opacity="0.2"/>
+</svg>

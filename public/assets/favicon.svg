@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <!-- Background circle for mobile app icon -->
-  <circle cx="64" cy="64" r="62" fill="#f5e9d4"/>
-  
-  <!-- Umbrella canopy - segmented for detail -->
-  <!-- Main canopy shape -->
-  <path d="M 30 42 Q 64 14, 98 42 Q 98 50, 90 58 Q 64 72, 38 58 Q 30 50, 30 42 Z" fill="#2ca69a"/>
-  <path d="M 32 44 Q 64 20, 96 44 L 90 58 Q 64 70, 38 58 Z" fill="#38bfb2"/>
-  
-  <!-- Umbrella segments/ribs for dimension -->
-  <path d="M 64 16 L 64 58" stroke="#1a6b63" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
-  <path d="M 48 26 L 42 58" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-  <path d="M 80 26 L 86 58" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-  <path d="M 36 36 L 32 62" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-  <path d="M 92 36 L 96 62" stroke="#1a6b63" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-  
-  <!-- Pole -->
-  <rect x="61" y="58" width="6" height="34" rx="2" fill="#2ca69a"/>
-  <rect x="62" y="58" width="4" height="34" rx="1.5" fill="#38bfb2"/>
-  
-  <!-- Ground/sand base -->
-  <rect x="44" y="94" width="40" height="8" rx="3" fill="#2ca69a"/>
-  <ellipse cx="64" cy="98" rx="22" ry="5" fill="#1a6b63" opacity="0.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd83d"/>
+      <stop offset=".38" stop-color="#7fffd4"/>
+      <stop offset=".72" stop-color="#00c2c7"/>
+      <stop offset="1" stop-color="#2144ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="154" y1="122" x2="360" y2="376" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#effcff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M0 394c74-32 130-28 194 0 58 25 106 28 164 0 55-27 100-32 154-8v126H0V394Z" fill="#ff7ad9"/>
+  <path d="M0 420c74-32 130-28 194 0 58 25 106 28 164 0 55-27 100-32 154-8v100H0V420Z" fill="#2144ff"/>
+  <path d="M126 188c48-72 212-72 260 0-45-22-83-10-104 28-33-38-77-38-110 0-15-37-16-37-46-28Z" fill="#101828"/>
+  <path d="M136 174c52-66 188-66 240 0-44-16-78-6-102 27-31-32-65-32-96 0-22-33-42-39-42-27Z" fill="#ffd83d"/>
+  <path d="M256 118v190" fill="none" stroke="#101828" stroke-width="22" stroke-linecap="round"/>
+  <rect x="148" y="214" width="216" height="188" rx="42" fill="#101828"/>
+  <rect x="164" y="198" width="216" height="188" rx="42" fill="url(#card)"/>
+  <path d="M238 246h52v39h39v52h-39v39h-52v-39h-39v-52h39v-39Z" fill="#ff5a5f"/>
+  <path d="M186 386c47-23 87-23 140 0" fill="none" stroke="#00c2c7" stroke-width="20" stroke-linecap="round"/>
 </svg>

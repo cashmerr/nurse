@@ -1,24 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Nurse on the Beach logo">
   <defs>
-    <linearGradient id="bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="62" y1="38" x2="450" y2="468" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffd83d"/>
-      <stop offset=".38" stop-color="#7fffd4"/>
-      <stop offset=".72" stop-color="#00c2c7"/>
+      <stop offset=".34" stop-color="#7fffd4"/>
+      <stop offset=".68" stop-color="#00c2c7"/>
       <stop offset="1" stop-color="#2144ff"/>
     </linearGradient>
-    <linearGradient id="card" x1="154" y1="122" x2="360" y2="376" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#effcff"/>
+    <linearGradient id="wave" x1="58" y1="318" x2="472" y2="458" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7ad9"/>
+      <stop offset=".58" stop-color="#ff5a5f"/>
+      <stop offset="1" stop-color="#2144ff"/>
     </linearGradient>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="14" dy="14" stdDeviation="0" flood-color="#101828" flood-opacity=".24"/>
+    </filter>
   </defs>
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <path d="M0 394c74-32 130-28 194 0 58 25 106 28 164 0 55-27 100-32 154-8v126H0V394Z" fill="#ff7ad9"/>
-  <path d="M0 420c74-32 130-28 194 0 58 25 106 28 164 0 55-27 100-32 154-8v100H0V420Z" fill="#2144ff"/>
-  <path d="M126 188c48-72 212-72 260 0-45-22-83-10-104 28-33-38-77-38-110 0-15-37-16-37-46-28Z" fill="#101828"/>
-  <path d="M136 174c52-66 188-66 240 0-44-16-78-6-102 27-31-32-65-32-96 0-22-33-42-39-42-27Z" fill="#ffd83d"/>
-  <path d="M256 118v190" fill="none" stroke="#101828" stroke-width="22" stroke-linecap="round"/>
-  <rect x="148" y="214" width="216" height="188" rx="42" fill="#101828"/>
-  <rect x="164" y="198" width="216" height="188" rx="42" fill="url(#card)"/>
-  <path d="M238 246h52v39h39v52h-39v39h-52v-39h-39v-52h39v-39Z" fill="#ff5a5f"/>
-  <path d="M186 386c47-23 87-23 140 0" fill="none" stroke="#00c2c7" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="386" cy="124" r="62" fill="#ffd83d" stroke="#101828" stroke-width="14"/>
+  <path d="M0 342c58-28 112-30 166 0 61 34 122 34 184 0 55-30 109-32 162-6v176H0V342Z" fill="url(#wave)"/>
+  <path d="M0 386c64-28 121-26 178 4 58 31 112 31 170 0 57-30 110-34 164-11v133H0V386Z" fill="#2144ff"/>
+  <g filter="url(#lift)">
+    <path d="M118 196C166 106 346 106 394 196c-46-23-82-7-112 42-34-42-74-42-108 0-22-47-44-65-56-42Z" fill="#101828"/>
+    <path d="M132 184c57-70 191-70 248 0-45-15-76 0-103 44-32-34-68-34-100 0-23-41-42-56-45-44Z" fill="#ffffff"/>
+    <path d="M164 176c31-28 154-28 184 0-34-8-57 5-75 40-25-22-49-22-74 0-13-29-25-42-35-40Z" fill="#7fffd4"/>
+    <path d="M256 128v226" fill="none" stroke="#101828" stroke-width="22" stroke-linecap="round"/>
+    <rect x="160" y="224" width="206" height="174" rx="42" fill="#ffffff" stroke="#101828" stroke-width="18"/>
+    <path d="M238 260h50v39h39v50h-39v39h-50v-39h-39v-50h39v-39Z" fill="#ff5a5f"/>
+    <path d="M190 396c46-22 92-22 138 0" fill="none" stroke="#00c2c7" stroke-width="18" stroke-linecap="round"/>
+  </g>
 </svg>
